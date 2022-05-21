@@ -1,0 +1,23 @@
+.frenchCv {
+    margin : 2em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a{
+        margin: 3em;
+        position: relative;
+        display: block;
+    }
+    .active{
+        &::after{
+            content: "";
+            width: 85%;
+            height: 0.25em;
+            background: $color-1;
+            position: absolute;
+            bottom: -0.5em;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}

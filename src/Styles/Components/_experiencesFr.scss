@@ -1,0 +1,31 @@
+.experiencesFr{
+    .alternship{
+        #title_alternship{
+            font-weight: bold;
+        }
+        .info_alternship{
+            position: relative;
+            left: 4em;
+        }
+
+    }
+    .seasonWork{
+        #title_seasonWork{
+            font-weight: bold;
+        }
+        position: relative;
+        top: 20px;
+    }
+    .stage{
+        #title_stage{
+            font-weight: bold;
+        }
+        position: relative;
+        top: 30px;
+    }
+    span.description{
+        position: relative;
+        top: 25px;
+        right: 14em;
+    }
+}
